@@ -1,0 +1,27 @@
+Kilka prostych zadanek z programowania, do rozwiązania w jupyter notebooku. Wielkimi literami oznaczone są parametry funkcji
+
+1. Napisz prostą pętle która będzie wypisywała X (parametr funckji) gwiazdek.
+Każda gwiazdka podzielna przez K ma zostać zastąpiona znakiem ASCII począwszy od znaku nr 33 w systemie dziesiętnym
+i resetować się na znaku 126.
+
+2. Zrób research i zainstaluj bibliotekę która umożliwi Ci operacje na macierzach.
+Następnie stwórz dwie losowe macierze kwadratowe o rozmiarze 3x3 i wykonaj na nich operacje dodwania,
+odejmowania, mnożenia i odwrócenia macierzy jeżeli się da.
+
+3. Stwórz wektor/liste który będzie przechowywał wartości z funkcji sinus.
+Następnie wykonaj research i znajdź bibliotekę która pozwoli Ci wykonać wykres z z wartościami tego wektora.
+Niezapomnij opisać osi
+
+4. Stwórz funkcje która przymuje X Y, gdzie X i ilość znaków '@' w wierszu a Y to ilość wierszy.
+Następnie funkcja ta ma narysować taki rysunek: 
+X = 4 Y = 4
+@@@@
+@  @
+@  @
+@@@@
+
+5. WORDS to parametr który przechowuje jaki tekst. Napisz funkcje która poprawi następujące problemy w tekście:
+ 1) Zdanie zaczyna się z wielkiej litery
+ 2) Polskie znaki maja zostać zamienione na : Ż Ź = Z , Ó = O , Ł = L , Ń = N, Ć = C, i tak dalej.
+ 3) Wielkie litery nie mogą być tylko na początku słowa bądź całe słowo musi być z wielkich liter
+ ( np. słowo aLa czy aLA jest nieprawidłowe)
